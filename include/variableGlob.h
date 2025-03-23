@@ -5,5 +5,6 @@ extern int etatCAZ1;
 extern int etatCEL1;
 extern int etatCAZ2;
 extern int etatCEL2;
+//extern int state;
 
 #endif

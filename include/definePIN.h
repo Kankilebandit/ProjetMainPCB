@@ -11,7 +11,7 @@
 #define RESET2 7
 #define MS3_2 15
 #define MS2_2 16
-#define MS1_2 8 // ERREUR DANS LE DESIGN. ACTUELLEMENT A PIN 17. NECEISSTE 8
+#define MS1_2 17 // ERREUR DANS LE DESIGN. ACTUELLEMENT A PIN 17. NECEISSTE 8
 
 
 #define DIR1 3
@@ -34,5 +34,16 @@
 
 
 #define SCREEN_ADDRESS 0x3C // Adresse I2C du SSD13
+
+
+#define DEMARRAGE 0
+#define SUIVIE 1
+#define CALIBRATION 2
+#define FREE 3
+#define CEL1 39
+#define CAZ2 37
+#define CEL2 38 
+#define SDLPIN 48
+#define SDAPIN 47
 
 #endif
